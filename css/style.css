@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Vollkorn";
   font-style: normal;
   font-weight: 400;
-  src: local("Vollkorn Regular"), local("Vollkorn-Regular"), url(/fonts/vollkorn-v13-latin_cyrillic-regular-9a6d28c09b848eb04fca8230fc58b2604f6f649405db7a1e9aa8d2fc8e010db2.woff2) format("woff2");
+  src: local("Vollkorn Regular"), local("Vollkorn-Regular"), url(../fonts/vollkorn-v13-latin_cyrillic-regular-9a6d28c09b848eb04fca8230fc58b2604f6f649405db7a1e9aa8d2fc8e010db2.woff2) format("woff2");
 }
 @font-face {
   font-family: "Vollkorn";
@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Forum";
   font-style: normal;
   font-weight: 400;
-  src: local("Forum"), url(/fonts/forum-v11-latin_cyrillic-regular-d17c27c8f6ccb46e70a697b4eb30b3e20a029eee62e1e10c6d67c20542053f7b.woff2) format("woff2");
+  src: local("Forum"), url(../fonts/forum-v11-latin_cyrillic-regular-d17c27c8f6ccb46e70a697b4eb30b3e20a029eee62e1e10c6d67c20542053f7b.woff2) format("woff2");
 }
 @font-face {
-  font-family: "Xack", url(/fonts/xack.woff2);
+  font-family: "Xack", url(../fonts/xack.woff2);
 }
 body {
   background-color: #000000;
