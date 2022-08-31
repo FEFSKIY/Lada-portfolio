@@ -8,30 +8,33 @@
    <title>Фотографии важных моментов вашей жизни</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="icon" href="img/favicon.ico"><!-- 32×32 -->
 </head>
 
 <body>
    <div class="wrapper">
-      <header class="header">
+      <header class="header lock-padding">
          <div class="menu-navigation__container">
             <div class="header__menu-navigation">
                <div class="header__socialmedias">
-                  <div class="socialmedia__vk"><a href=""><img class="vk__logo" src="img/vklogo.png" alt=""></a></div>
-                  <div class="socialmedia__inst"><a href=""><img class="inst__logo" src="img/instagramlogo.png"
-                           alt=""></a></div>
-                  <div class="socialmedia__tg"><a href=""><img class="tg__logo" src="/img/tglogo.png" alt=""></a>
+                  <div class="socialmedia__vk"><a href="https://vk.com/ladasilber"><img class="vk__logo"
+                           src="img/vklogo.svg" alt=""></a></div>
+                  <div class="socialmedia__inst"><a href="https://instagram.com/i_am_lada_silber"><img
+                           class="inst__logo" src="img/instagramlogo.svg" alt=""></a></div>
+                  <div class="socialmedia__tg"><a href=""><img class="tg__logo" src="img/tglogo.svg" alt=""></a>
                   </div>
                </div>
-               <div class="menu__icon"></div>
                <nav class="header__menu">
                   <div class="header__menu-list">
-                     <div class="header__menu-links"><a style="color: #c4c4c4" href="#" class="menu__link">Главная</a>
+                     <div class="header__menu-links"><a style="color: #c4c4c4" href="index.html"
+                           class="menu__link">Главная</a>
                      </div>
-                     <div class="header__menu-links"><a href="#" class="menu__link">Обо мне</a></div>
-                     <div class="header__menu-links"><a href="#" class="menu__link">Портфолио</a></div>
-                     <div class="header__menu-links"><a href="#" class="menu__link">Цены</a></div>
-                     <div class="header__menu-links"><a href="#" class="menu__link">Контакты</a></div>
+                     <div class="header__menu-links"><a href="about.html" class="menu__link">Обо мне</a></div>
+                     <div class="header__menu-links"><a href="portfolio.html" class="menu__link">Портфолио</a></div>
+                     <div class="header__menu-links"><a href="price.html" class="menu__link">Цены</a></div>
+                     <div class="header__menu-links"><a href="contact.html" class="menu__link">Контакты</a></div>
                   </div>
+                  <div class="menu__icon"><span></span></div>
                </nav>
             </div>
          </div>
@@ -45,31 +48,36 @@
                      <div class="image-slider__wrapper swiper-wrapper">
                         <div class="image-slider__slide swiper-slide">
                            <div class="image-slider__image swiper-zoom-container">
-                              <img src="img/1.png" class="swiper-lazy" alt="Картинка">
+                              <img src="img/slider/1.jpg" class="swiper-lazy" alt="Картинка">
                            </div>
                         </div>
 
                         <div class="image-slider__slide swiper-slide">
                            <div class="image-slider__image swiper-zoom-container">
-                              <img src="img/2.png" class="swiper-lazy" alt="Картинка">
+                              <img src="img/slider/2.jpg" class="swiper-lazy" alt="Картинка">
                            </div>
                         </div>
 
                         <div class="image-slider__slide swiper-slide">
                            <div class="image-slider__image swiper-zoom-container">
-                              <img src="img/3.png" class="swiper-lazy" alt="Картинка">
+                              <img src="img/slider/3.jpg" class="swiper-lazy" alt="Картинка">
                            </div>
                         </div>
 
                         <div class="image-slider__slide swiper-slide">
                            <div class="image-slider__image swiper-zoom-container">
-                              <img src="img/4.png" class="swiper-lazy" alt="Картинка">
+                              <img src="img/slider/4.jpg" class="swiper-lazy" alt="Картинка">
                            </div>
                         </div>
 
                         <div class="image-slider__slide swiper-slide">
                            <div class="image-slider__image swiper-zoom-container">
-                              <img src="img/5.png" class="swiper-lazy" alt="Картинка">
+                              <img src="img/slider/5.jpg" class="swiper-lazy" alt="Картинка">
+                           </div>
+                        </div>
+                        <div class="image-slider__slide swiper-slide">
+                           <div class="image-slider__image swiper-zoom-container">
+                              <img src="img/slider/6.jpg" class="swiper-lazy" alt="Картинка">
                            </div>
                         </div>
                      </div>
@@ -82,7 +90,7 @@
                </div>
             </div>
    </div>
-   <a class="contact-button__link" href="#">
+   <a class="contact-button__link popup-link" href="#popup">
       <div class="slider__contact-button contact-button">Оставить заявку</div>
    </a>
    </div>
@@ -90,47 +98,47 @@
    <section class="work-examples">
       <div class="work-examples__container">
          <div class="more__items">
-            <div class="myworks">
+            <div class="myworks more__item">
                <h4>Вам будет интересно</h4>
                <h2>Мои работы</h2>
-               <a class="myworks__link more__items-link" href="">Посмотреть →</a>
+               <a class="myworks__link more__items-link" href="portfolio.html">Посмотреть →</a>
             </div>
-            <div class="price">
+            <div class="price more__item">
                <h4>Цены на мои услуги</h4>
                <h2>Цены</h2>
-               <a class="price__link more__items-link" href="">Посмотреть →</a>
+               <a class="price__link more__items-link" href="price.html">Посмотреть →</a>
             </div>
-            <div class="aboutme">
+            <div class="aboutme more__item">
                <h4>Немного о себе</h4>
                <h2>Обо мне</h2>
-               <a class="aboutme__link more__items-link" href="">Почитать →</a>
+               <a class="aboutme__link more__items-link" href="about.html">Почитать →</a>
             </div>
          </div>
          <div class="work-examples__images">
-            <div class="work-examples__image-1 work-examples__block"><img class="work-examples__image-item"
-                  src="img/1.png" alt=""></div>
-            <div class="work-examples__image-2 work-examples__block"><img class="work-examples__image-item"
-                  src="img/2.png" alt=""></div>
-            <div class="work-examples__image-3 work-examples__block"><img class="work-examples__image-item"
-                  src="img/3.png" alt=""></div>
-            <div class="work-examples__image-4 work-examples__block"><img class="work-examples__image-item"
-                  src="img/1.png" alt=""></div>
-            <div class="work-examples__image-5 work-examples__block"><img class="work-examples__image-item"
-                  src="img/1.png" alt=""></div>
-            <div class="work-examples__image-6 work-examples__block"><img class="work-examples__image-item"
-                  src="img/1.png" alt=""></div>
-            <div class="work-examples__image-7 work-examples__block"><img class="work-examples__image-item"
-                  src="img/2.png" alt=""></div>
-            <div class="work-examples__image-8 work-examples__block"><img class="work-examples__image-item"
-                  src="img/2.png" alt=""></div>
-            <div class="work-examples__image-9 work-examples__block"><img class="work-examples__image-item"
-                  src="img/2.png" alt=""></div>
-            <div class="work-examples__image-10 work-examples__block"><img class="work-examples__image-item"
-                  src="img/3.png" alt=""></div>
-            <div class="work-examples__image-11 work-examples__block"><img class="work-examples__image-item"
-                  src="img/3.png" alt=""></div>
-            <div class="work-examples__image-12 work-examples__block"><img class="work-examples__image-item"
-                  src="img/3.png" alt=""></div>
+            <div class="work-examples__image-1 work-examples__block"> <a class="popup-link" href="#image-1"><img
+                     class="work-examples__image-item" src="img/slider/1.jpg" alt=""></a></div>
+            <div class="work-examples__image-2 work-examples__block"><a class="popup-link" href="#image-2"> <img
+                     class="work-examples__image-item" src="img/slider/2.jpg" alt=""></a></div>
+            <div class="work-examples__image-3 work-examples__block"><a class="popup-link" href="#image-3"><img
+                     class="work-examples__image-item" src="img/slider/3.jpg" alt=""></a></div>
+            <div class="work-examples__image-4 work-examples__block"><a class="popup-link" href="#image-4"><img
+                     class="work-examples__image-item" src="img/slider/4.jpg" alt=""></a></div>
+            <div class="work-examples__image-5 work-examples__block"><a class="popup-link" href="#image-5"><img
+                     class="work-examples__image-item" src="img/slider/5.jpg" alt=""></a></div>
+            <div class="work-examples__image-6 work-examples__block"><a class="popup-link" href="#image-6"><img
+                     class="work-examples__image-item" src="img/slider/6.jpg" alt=""></a></div>
+            <div class="work-examples__image-7 work-examples__block"><a class="popup-link" href="#image-7"> <img
+                     class="work-examples__image-item" src="img/slider/7.jpg" alt=""></a></div>
+            <div class="work-examples__image-8 work-examples__block"><a class="popup-link" href="#image-8"> <img
+                     class="work-examples__image-item" src="img/slider/8.jpg" alt=""></a></div>
+            <div class="work-examples__image-9 work-examples__block"><a class="popup-link" href="#image-9"> <img
+                     class="work-examples__image-item" src="img/slider/9.jpg" alt=""></a></div>
+            <div class="work-examples__image-10 work-examples__block"><a class="popup-link" href="#image-10"> <img
+                     class="work-examples__image-item" src="img/slider/10.jpg" alt=""></a></div>
+            <div class="work-examples__image-11 work-examples__block"><a class="popup-link" href="#image-11"> <img
+                     class="work-examples__image-item" src="img/slider/11.jpg" alt=""></a></div>
+            <div class="work-examples__image-12 work-examples__block"><a class="popup-link" href="#image-12"> <img
+                     class="work-examples__image-item" src="img/slider/12.jpg" alt=""></a></div>
          </div>
       </div>
       <div class="upperfooter__contact">
@@ -140,12 +148,12 @@
                для Вас способом</p>
          </div>
          <div class="upperfooter__contact-button__background">
-            <a class="contact-button__link" href="">
+            <a class="contact-button__link popup-link" href="#popup">
                <div class="upperfooter__contact-button contact-button">Заказать</div>
             </a>
          </div>
       </div>
-      </div>
+
    </section>
    </main>
    <footer class="footer">
@@ -153,9 +161,140 @@
          <div class="footer__quote">
             <p>«Фотографии – это открытые двери в прошлое, но они позволяют заглянуть в будущее», - Салли Манн.</p>
          </div>
-         <div class="footer__site-developer">Сайт разработал <a href="#">Михаил Барабаш</a></div>
+         <div class="footer__site-developer">Сайт разработал <a target="_blank" href="https://vk.com/lildozhd02">Михаил
+               Барабаш</a>
+         </div>
       </div>
    </footer>
+   </div>
+   <div id="popup" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a class="popup__close close-popup" href="#">X</a>
+            <h3>Заказать фотосъемку</h3>
+            <p>Вы можете связаться со мной следующими способами:</p>
+            <div class="popup__contact-button__background">
+               <a class="contact-button__link" href="">
+                  <div class="popup__contact-button contact-button">
+                     <img class="contact-button__icon" src="img/vklogo.svg" alt="logo">
+                     НАПИСАТЬ В ВКОНТАКТЕ
+                  </div>
+               </a>
+            </div>
+            <div class="popup__contact-button__background">
+               <a class="contact-button__link" href="">
+                  <div class="popup__contact-button contact-button">
+                     <img class="contact-button__icon" src="img//instagramlogo.svg" alt="logo">
+                     НАПИСАТЬ В INSTAGRAM
+                  </div>
+               </a>
+            </div>
+            <div class="popup__contact-button__background">
+               <a class="contact-button__link" href="">
+                  <div class="popup__contact-button contact-button">
+                     <img src="img/tglogo.svg" alt="logo" class="contact-button__icon">
+                     НАПИСАТЬ В ТЕЛЕГРАМ
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="image-1" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/1.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-2" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/2.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-3" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/3.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-4" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/4.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-5" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/5.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-6" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/6.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-7" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/7.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-8" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/8.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-9" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/9.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-10" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/10.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-11" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/11.jpg" alt=""></div>
+         </div>
+      </div>
+   </div>
+   <div id="image-12" class="popup">
+      <div class="popup__body">
+         <div class="popup__content-image">
+            <a class="popup__close close-popup" href="#"></a>
+            <div class="popup__image"><img src="img/slider/12.jpg" alt=""></div>
+         </div>
+      </div>
    </div>
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src="js/script.js"></script>
